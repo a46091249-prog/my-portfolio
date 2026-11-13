@@ -241,13 +241,17 @@
                     </a>
                 </div>
                 <!-- نموذج التواصل (يجب تغيير YOUR_FORM_ID برابطك من Formspree) -->
-                <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-                    <input type="text" name="name" placeholder="اسمك" required>
-                    <input type="email" name="email" placeholder="بريدك الإلكتروني" required>
-                    <input type="text" name="subject" placeholder="الموضوع">
-                    <textarea name="message" rows="5" placeholder="رسالتك" required></textarea>
-                    <button type="submit" class="btn btn-primary">إرسال الرسالة</button>
-                </form>
+  <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+    <input type="hidden" name="access_key" value="c25d0c62-a784-47b3-ae06-9c5227164b34">
+    <input type="hidden" name="subject" value="رسالة جديدة من موقعك الشخصي">
+    <input type="hidden" name="from_name" value="موقع أحمد جلال">
+    
+    <input type="text" name="name" placeholder="اسمك" required>
+    <input type="email" name="email" placeholder="بريدك الإلكتروني" required>
+    <input type="text" name="subject" placeholder="الموضوع">
+    <textarea name="message" rows="5" placeholder="رسالتك" required></textarea>
+    <button type="submit" class="btn btn-primary">إرسال الرسالة</button>
+</form>
             </div>
         </div>
     </section>
