@@ -3,13 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="أحمد جلال البكور - مهندس برمجيات متخصص في تطوير تطبيقات الويب والموبايل، مواقع WordPress، والمتاجر الإلكترونية.">
-    <meta name="keywords" content="أحمد جلال البكور, مهندس برمجيات, مطور ويب, مطور تطبيقات, WordPress, متاجر إلكترونية, Java, JavaScript, Python">
-    <meta name="author" content="أحمد جلال البكور">
+    <meta name="description" content="أحمد جلال البكور - مهندس برمجيات متخصص في تطوير الويب والموبايل.">
     <title>أحمد جلال البكور | مهندس برمجيات</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -22,13 +20,9 @@
                 <li><a href="#about">من أنا</a></li>
                 <li><a href="#skills">مهاراتي</a></li>
                 <li><a href="#services">خدماتي</a></li>
-                <li><a href="#cv">سيرتي</a></li>
                 <li><a href="#contact">تواصل</a></li>
             </ul>
-            <!-- زر الوضع الليلي -->
-            <button class="theme-toggle" id="theme-toggle" aria-label="تبديل الوضع الليلي">
-                <i class="fas fa-moon"></i>
-            </button>
+            <button class="theme-toggle" id="theme-toggle" aria-label="الوضع الليلي" style="font-size: 24px;">🌙</button>
             <div class="menu-toggle"><i class="fas fa-bars"></i></div>
         </div>
     </nav>
@@ -37,24 +31,18 @@
     <section id="home" class="hero">
         <div class="container hero-content">
             <div class="hero-text">
-                <h1>مرحباً، أنا <span class="highlight">أحمد جلال البكور</span></h1>
-                <h2>مهندس برمجيات | مطور ويب وتطبيقات</h2>
+                <span class="greeting">مرحباً، أنا</span>
+                <h1>أحمد جلال البكور</h1>
+                <h2 class="job-title">مهندس برمجيات | مطور ويب وتطبيقات</h2>
                 <p>أبني تطبيقات ويب وموبايل احترافية، ومواقع شركات، ومتاجر إلكترونية — مع حلول رقمية متكاملة تناسب احتياجات عملك.</p>
                 <div class="hero-buttons">
                     <a href="#contact" class="btn btn-primary">تواصل معي</a>
-                    <a href="#about" class="btn btn-outline">اعرف المزيد</a>
-                </div>
-                <div class="social-links">
-                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                    <a href="#"><i class="fab fa-github"></i></a>
-                    <a href="https://wa.me/201080904834" target="_blank" aria-label="واتساب"><i class="fab fa-whatsapp"></i></a>
-                    <a href="mailto:a46091249@gmail.com"><i class="fas fa-envelope"></i></a>
+                    <a href="Ahmed_Jalal_AlBakour_CV.pdf" download class="btn btn-glass"><i class="fas fa-download"></i> السيرة الذاتية</a>
                 </div>
             </div>
             <div class="hero-image">
-                <div class="image-wrapper">
-                    <img src="profile.jpg" alt="أحمد جلال البكور">
-                </div>
+                <div class="blob"></div>
+                <img src="profile.jpg" alt="أحمد جلال البكور">
             </div>
         </div>
     </section>
@@ -63,23 +51,12 @@
     <section id="about" class="about">
         <div class="container">
             <h2 class="section-title">من <span>أنا</span></h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <h3>مهندس برمجيات شغوف بالحلول الرقمية</h3>
-                    <p>أنا مهندس برمجيات متخصص في بناء تطبيقات الويب والموبايل، والمواقع الاحترافية للشركات، والمتاجر الإلكترونية. أعمل على تطوير حلول رقمية متكاملة تساعد الشركات والأفراد على إطلاق منتجاتهم وخدماتهم أونلاين.</p>
-                    <p>أجمع بين تطوير البرمجيات والإنتاج الرقمي العملي — حيث أطوّر مواقع WordPress وأصنع المواد الإعلانية والصور المصغرة باستخدام أدوات الذكاء الاصطناعي، مما يمنح عملائي حلاً شاملاً من الفكرة إلى الإطلاق.</p>
-                    <div class="about-info">
-                        <div><strong>الاسم:</strong> أحمد جلال البكور</div>
-                        <div><strong>التخصص:</strong> مهندس برمجيات</div>
-                        <div><strong>الموقع:</strong> مصر / سوريا</div>
-                        <div><strong>البريد:</strong> a46091249@gmail.com</div>
-                    </div>
-                </div>
-                <div class="about-stats">
+            <div class="glass-card about-card">
+                <p>أنا مهندس برمجيات متخصص في بناء تطبيقات الويب والموبايل، والمواقع الاحترافية للشركات، والمتاجر الإلكترونية. أعمل على تطوير حلول رقمية متكاملة تساعد الشركات والأفراد على إطلاق منتجاتهم وخدماتهم أونلاين. أجمع بين تطوير البرمجيات والإنتاج الرقمي العملي باستخدام أدوات الذكاء الاصطناعي.</p>
+                <div class="stats-grid">
                     <div class="stat"><h3>3+</h3><p>لغات برمجة</p></div>
                     <div class="stat"><h3>5+</h3><p>منصات تطوير</p></div>
                     <div class="stat"><h3>2</h3><p>مجال تطوير</p></div>
-                    <div class="stat"><h3>3</h3><p>لغات</p></div>
                 </div>
             </div>
         </div>
@@ -90,14 +67,12 @@
         <div class="container">
             <h2 class="section-title">مها<span>راتي</span></h2>
             <div class="skills-grid">
-                <div class="skill-card"><i class="fab fa-java"></i><h3>Java</h3><div class="progress"><div class="progress-bar" style="width: 90%"></div></div></div>
-                <div class="skill-card"><i class="fab fa-js"></i><h3>JavaScript</h3><div class="progress"><div class="progress-bar" style="width: 85%"></div></div></div>
-                <div class="skill-card"><i class="fab fa-python"></i><h3>Python</h3><div class="progress"><div class="progress-bar" style="width: 80%"></div></div></div>
-                <div class="skill-card"><i class="fab fa-wordpress"></i><h3>WordPress</h3><div class="progress"><div class="progress-bar" style="width: 90%"></div></div></div>
-                <div class="skill-card"><i class="fab fa-android"></i><h3>Android</h3><div class="progress"><div class="progress-bar" style="width: 80%"></div></div></div>
-                <div class="skill-card"><i class="fab fa-apple"></i><h3>iOS</h3><div class="progress"><div class="progress-bar" style="width: 70%"></div></div></div>
-                <div class="skill-card"><i class="fas fa-shopping-cart"></i><h3>E-commerce</h3><div class="progress"><div class="progress-bar" style="width: 85%"></div></div></div>
-                <div class="skill-card"><i class="fas fa-robot"></i><h3>AI Tools</h3><div class="progress"><div class="progress-bar" style="width: 85%"></div></div></div>
+                <div class="glass-card skill-item"><i class="fab fa-java"></i><h3>Java</h3></div>
+                <div class="glass-card skill-item"><i class="fab fa-js"></i><h3>JavaScript</h3></div>
+                <div class="glass-card skill-item"><i class="fab fa-python"></i><h3>Python</h3></div>
+                <div class="glass-card skill-item"><i class="fab fa-wordpress"></i><h3>WordPress</h3></div>
+                <div class="glass-card skill-item"><i class="fab fa-android"></i><h3>Android</h3></div>
+                <div class="glass-card skill-item"><i class="fab fa-apple"></i><h3>iOS</h3></div>
             </div>
         </div>
     </section>
@@ -107,113 +82,25 @@
         <div class="container">
             <h2 class="section-title">خد<span>ماتي</span></h2>
             <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-icon"><i class="fas fa-globe"></i></div>
-                    <h3>تطوير مواقع الويب</h3>
-                    <p>بناء تطبيقات ويب احترافية ومواقع شركات سريعة وآمنة ومتجاوبة مع جميع الأجهزة.</p>
+                <div class="glass-card service-item">
+                    <div class="icon-box"><i class="fas fa-globe"></i></div>
+                    <h3>تطوير الويب</h3>
+                    <p>بناء تطبيقات ويب احترافية ومواقع شركات سريعة وآمنة.</p>
                 </div>
-                <div class="service-card">
-                    <div class="service-icon"><i class="fas fa-mobile-alt"></i></div>
+                <div class="glass-card service-item">
+                    <div class="icon-box"><i class="fas fa-mobile-alt"></i></div>
                     <h3>تطبيقات الموبايل</h3>
-                    <p>تطوير تطبيقات Android و iOS بأداء عالٍ وتجربة مستخدم سلسة.</p>
+                    <p>تطوير تطبيقات Android و iOS بأداء عالٍ.</p>
                 </div>
-                <div class="service-card">
-                    <div class="service-icon"><i class="fab fa-wordpress"></i></div>
-                    <h3>مواقع WordPress</h3>
-                    <p>تصميم وتطوير مواقع WordPress احترافية مع لوحات تحكم سهلة الإدارة.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon"><i class="fas fa-shopping-cart"></i></div>
+                <div class="glass-card service-item">
+                    <div class="icon-box"><i class="fas fa-shopping-cart"></i></div>
                     <h3>المتاجر الإلكترونية</h3>
-                    <p>إنشاء متاجر إلكترونية متكاملة لبيع المنتجات والخدمات مع بوابات دفع.</p>
+                    <p>إنشاء متاجر متكاملة مع بوابات دفع سهلة.</p>
                 </div>
-                <div class="service-card">
-                    <div class="service-icon"><i class="fas fa-bullhorn"></i></div>
-                    <h3>المواد الإعلانية</h3>
-                    <p>إنتاج إعلانات وصور مصغرة احترافية باستخدام أدوات الذكاء الاصطناعي.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon"><i class="fas fa-lightbulb"></i></div>
-                    <h3>حلول رقمية مخصصة</h3>
-                    <p>استشارات وحلول رقمية متكاملة للشركات والأفراد حسب احتياجاتهم.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- قسم السيرة الذاتية -->
-    <section id="cv" class="cv-section">
-        <div class="container">
-            <h2 class="section-title">سيرتي <span>الذاتية</span></h2>
-            <p class="section-subtitle">نظرة شاملة على مسيرتي المهنية والتعليمية</p>
-
-            <div class="cv-download">
-                <a href="Ahmed_Jalal_AlBakour_CV.pdf" download class="btn btn-primary"><i class="fas fa-download"></i> تحميل السيرة الذاتية (PDF)</a>
-                <a href="Ahmed_Jalal_AlBakour_CV.pdf" target="_blank" class="btn btn-outline"><i class="fas fa-eye"></i> معاينة السيرة</a>
-            </div>
-
-            <div class="timeline">
-                <!-- الملف المهني -->
-                <div class="timeline-section">
-                    <h3 class="timeline-title"><i class="fas fa-user-tie"></i> الملف المهني</h3>
-                    <div class="timeline-item">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-content">
-                            <h4>مهندس برمجيات | مطور ويب وتطبيقات</h4>
-                            <p>مهندس برمجيات متخصص في بناء تطبيقات الويب والموبايل، ومواقع الشركات الاحترافية، والمتاجر الإلكترونية. أطوّر مواقع WordPress والحلول الرقمية للشركات والمنتجات والخدمات، وأنتج المواد الإعلانية والصور المصغرة باستخدام أدوات الذكاء الاصطناعي — أدمج تطوير البرمجيات مع الإنتاج الرقمي العملي.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- المهارات التقنية -->
-                <div class="timeline-section">
-                    <h3 class="timeline-title"><i class="fas fa-code"></i> المهارات التقنية</h3>
-                    <div class="timeline-item">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-content">
-                            <h4>لغات البرمجة</h4>
-                            <p>Java • JavaScript • Python</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-content">
-                            <h4>المنصات والحلول</h4>
-                            <p>تطبيقات الويب • Android • iOS • WordPress • المتاجر الإلكترونية</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- التعليم -->
-                <div class="timeline-section">
-                    <h3 class="timeline-title"><i class="fas fa-graduation-cap"></i> التعليم</h3>
-                    <div class="timeline-item">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-content">
-                            <h4>بكالوريوس تقنية المعلومات</h4>
-                            <h5>جامعة التكنولوجيا والمعلومات</h5>
-                            <p>تخصص: تقنية المعلومات (IT)</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- اللغات -->
-                <div class="timeline-section">
-                    <h3 class="timeline-title"><i class="fas fa-language"></i> اللغات</h3>
-                    <div class="languages-grid">
-                        <div class="language-item">
-                            <div class="lang-header"><span>العربية</span><span>بطلاقة</span></div>
-                            <div class="progress"><div class="progress-bar" style="width: 100%"></div></div>
-                        </div>
-                        <div class="language-item">
-                            <div class="lang-header"><span>الإنجليزية</span><span>B1 - متوسط</span></div>
-                            <div class="progress"><div class="progress-bar" style="width: 60%"></div></div>
-                        </div>
-                        <div class="language-item">
-                            <div class="lang-header"><span>الألمانية</span><span>A2 - مبتدئ</span></div>
-                            <div class="progress"><div class="progress-bar" style="width: 35%"></div></div>
-                        </div>
-                    </div>
+                <div class="glass-card service-item">
+                    <div class="icon-box"><i class="fas fa-robot"></i></div>
+                    <h3>أدوات الذكاء الاصطناعي</h3>
+                    <p>إنتاج مواد إعلانية وصور مصغرة احترافية.</p>
                 </div>
             </div>
         </div>
@@ -223,62 +110,29 @@
     <section id="contact" class="contact">
         <div class="container">
             <h2 class="section-title">تواصل <span>معي</span></h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <h3>لنتحدث عن مشروعك</h3>
-                    <p>أنا منفتح دائماً على المشاريع الجديدة والفرص المثيرة. تواصل معي وسأرد عليك في أقرب وقت.</p>
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <div><h4>البريد الإلكتروني</h4><p>a46091249@gmail.com</p></div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <div><h4>الموقع</h4><p>مصر / سوريا</p></div>
-                    </div>
-                    <a href="https://wa.me/201080904834" target="_blank" class="contact-item" style="text-decoration: none; color: inherit;">
-                        <i class="fab fa-whatsapp"></i>
-                        <div><h4>WhatsApp</h4><p dir="ltr" style="text-align: right;">+20 108 090 4834</p></div>
-                    </a>
+            <div class="glass-card contact-card">
+                <h3>لنتحدث عن مشروعك</h3>
+                <p>أنا منفتح دائماً على المشاريع الجديدة والفرص المثيرة.</p>
+                <div class="contact-buttons">
+                    <a href="https://wa.me/201080904834" target="_blank" class="btn btn-wa"><i class="fab fa-whatsapp"></i> واتساب</a>
+                    <a href="mailto:a46091249@gmail.com" class="btn btn-glass"><i class="fas fa-envelope"></i> البريد الإلكتروني</a>
                 </div>
-                <!-- نموذج التواصل (يجب تغيير YOUR_FORM_ID برابطك من Formspree) -->
- <div class="contact-buttons" style="display: flex; flex-direction: column; gap: 20px; margin-top: 30px;">
-    <a href="https://wa.me/201080904834" target="_blank" class="btn btn-primary" style="background: #25D366; border: none; display: flex; align-items: center; justify-content: center; gap: 10px;">
-        <i class="fab fa-whatsapp" style="font-size: 24px;"></i> تواصل معي عبر واتساب
-    </a>
-    
-    <a href="mailto:a46091249@gmail.com" class="btn btn-outline" style="display: flex; align-items: center; justify-content: center; gap: 10px; border-color: var(--primary); color: var(--primary);">
-        <i class="fas fa-envelope" style="font-size: 20px;"></i> أرسل لي بريداً إلكترونياً
-    </a>
-</div>
             </div>
         </div>
     </section>
 
-    <!-- التذييل -->
     <footer>
-        <div class="container">
-            <p>&copy; 2026 أحمد جلال البكور. جميع الحقوق محفوظة.</p>
-        </div>
+        <p>&copy; 2026 أحمد جلال البكور.</p>
     </footer>
 
-    <!-- زر WhatsApp العائم -->
-    <a href="https://wa.me/201080904834?text=مرحباً%20أحمد،%20أرغب%20في%20الاستفسار%20عن%20خدماتك" class="whatsapp-float" target="_blank" aria-label="تواصل عبر واتساب">
-        <i class="fab fa-whatsapp"></i>
-    </a>
-
-    <!-- ربط ملف الجافاسكريبت -->
     <script src="script.js"></script>
-
-      <!-- كود الوضع الليلي المباشر -->
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             const themeToggle = document.getElementById('theme-toggle');
-            
             if (localStorage.getItem('theme') === 'dark') {
                 document.documentElement.setAttribute('data-theme', 'dark');
                 themeToggle.textContent = '☀️';
             }
-
             themeToggle.addEventListener('click', function() {
                 if (document.documentElement.getAttribute('data-theme') === 'dark') {
                     document.documentElement.removeAttribute('data-theme');
