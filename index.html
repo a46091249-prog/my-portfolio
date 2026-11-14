@@ -7,7 +7,7 @@
     <title>أحمد جلال البكور | مهندس برمجيات</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -21,123 +21,72 @@
                 <li><a href="#services">خدماتي</a></li>
                 <li><a href="#contact">تواصل</a></li>
             </ul>
-            <button class="theme-toggle" id="theme-toggle" aria-label="الوضع الليلي" style="font-size: 24px;">🌙</button>
             <div class="menu-toggle"><i class="fas fa-bars"></i></div>
         </div>
     </nav>
 
+    <!-- القسم الرئيسي (Hero) -->
     <section id="home" class="hero">
+        <div class="hero-overlay"></div>
         <div class="container hero-content">
-            <div class="hero-text">
-                <span class="greeting">مرحباً، أنا</span>
-                <h1>أحمد جلال البكور</h1>
-                <h2 class="job-title">مهندس برمجيات | مطور ويب وتطبيقات</h2>
-                <p>أبني تطبيقات ويب وموبايل احترافية، ومواقع شركات، ومتاجر إلكترونية — مع حلول رقمية متكاملة تناسب احتياجات عملك.</p>
-                <div class="hero-buttons">
-                    <a href="#contact" class="btn btn-primary">تواصل معي</a>
-                    <a href="Ahmed_Jalal_AlBakour_CV.pdf" download class="btn btn-glass"><i class="fas fa-download"></i> السيرة الذاتية</a>
-                </div>
-            </div>
-            <div class="hero-image">
-                <div class="blob"></div>
-                <img src="profile.jpg" alt="أحمد جلال البكور">
+            <h2 class="subtitle">مهندس برمجيات</h2>
+            <h1>أبني حلولاً رقمية<br>تحدث فرقاً.</h1>
+            <p>أنا أحمد جلال البكور. متخصص في تطوير تطبيقات الويب والموبايل، والمواقع الاحترافية للشركات والمتاجر الإلكترونية.</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-yellow">اطلب خدمة الآن</a>
+                <a href="#skills" class="btn btn-outline">اكتشف مهاراتي</a>
             </div>
         </div>
     </section>
 
-    <section id="about" class="about">
+    <!-- من أنا -->
+    <section id="about" class="section-dark">
         <div class="container">
             <h2 class="section-title">من <span>أنا</span></h2>
-            <div class="glass-card about-card">
-                <p>أنا مهندس برمجيات متخصص في بناء تطبيقات الويب والموبايل، والمواقع الاحترافية للشركات، والمتاجر الإلكترونية. أعمل على تطوير حلول رقمية متكاملة تساعد الشركات والأفراد على إطلاق منتجاتهم وخدماتهم أونلاين. أجمع بين تطوير البرمجيات والإنتاج الرقمي العملي باستخدام أدوات الذكاء الاصطناعي.</p>
-                <div class="stats-grid">
-                    <div class="stat"><h3>3+</h3><p>لغات برمجة</p></div>
-                    <div class="stat"><h3>5+</h3><p>منصات تطوير</p></div>
-                    <div class="stat"><h3>2</h3><p>مجال تطوير</p></div>
-                </div>
+            <div class="about-content">
+                <p>مهندس برمجيات متخصص في بناء تطبيقات الويب والموبايل. أجمع بين تطوير البرمجيات والإنتاج الرقمي العملي باستخدام أدوات الذكاء الاصطناعي، مما يمنح عملائي حلاً شاملاً من الفكرة إلى الإطلاق.</p>
             </div>
         </div>
     </section>
 
-    <section id="skills" class="skills">
+    <!-- المهارات -->
+    <section id="skills" class="section-darker">
         <div class="container">
             <h2 class="section-title">مها<span>راتي</span></h2>
-            <div class="skills-grid">
-                <div class="glass-card skill-item"><i class="fab fa-java"></i><h3>Java</h3></div>
-                <div class="glass-card skill-item"><i class="fab fa-js"></i><h3>JavaScript</h3></div>
-                <div class="glass-card skill-item"><i class="fab fa-python"></i><h3>Python</h3></div>
-                <div class="glass-card skill-item"><i class="fab fa-wordpress"></i><h3>WordPress</h3></div>
-                <div class="glass-card skill-item"><i class="fab fa-android"></i><h3>Android</h3></div>
-                <div class="glass-card skill-item"><i class="fab fa-apple"></i><h3>iOS</h3></div>
+            <div class="grid-container">
+                <div class="card"><i class="fab fa-java"></i><h3>Java</h3></div>
+                <div class="card"><i class="fab fa-js"></i><h3>JavaScript</h3></div>
+                <div class="card"><i class="fab fa-python"></i><h3>Python</h3></div>
+                <div class="card"><i class="fab fa-wordpress"></i><h3>WordPress</h3></div>
+                <div class="card"><i class="fab fa-android"></i><h3>Android</h3></div>
+                <div class="card"><i class="fab fa-apple"></i><h3>iOS</h3></div>
             </div>
         </div>
     </section>
 
-    <section id="services" class="services">
-        <div class="container">
-            <h2 class="section-title">خد<span>ماتي</span></h2>
-            <div class="services-grid">
-                <div class="glass-card service-item">
-                    <div class="icon-box"><i class="fas fa-globe"></i></div>
-                    <h3>تطوير الويب</h3>
-                    <p>بناء تطبيقات ويب احترافية ومواقع شركات سريعة وآمنة.</p>
-                </div>
-                <div class="glass-card service-item">
-                    <div class="icon-box"><i class="fas fa-mobile-alt"></i></div>
-                    <h3>تطبيقات الموبايل</h3>
-                    <p>تطوير تطبيقات Android و iOS بأداء عالٍ.</p>
-                </div>
-                <div class="glass-card service-item">
-                    <div class="icon-box"><i class="fas fa-shopping-cart"></i></div>
-                    <h3>المتاجر الإلكترونية</h3>
-                    <p>إنشاء متاجر متكاملة مع بوابات دفع سهلة.</p>
-                </div>
-                <div class="glass-card service-item">
-                    <div class="icon-box"><i class="fas fa-robot"></i></div>
-                    <h3>أدوات الذكاء الاصطناعي</h3>
-                    <p>إنتاج مواد إعلانية وصور مصغرة احترافية.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact" class="contact">
+    <!-- التواصل -->
+    <section id="contact" class="section-dark">
         <div class="container">
             <h2 class="section-title">تواصل <span>معي</span></h2>
-            <div class="glass-card contact-card">
-                <h3>لنتحدث عن مشروعك</h3>
-                <p>أنا منفتح دائماً على المشاريع الجديدة والفرص المثيرة.</p>
+            <div class="contact-box">
+                <h3>جاهز لبدء مشروعك؟</h3>
+                <p>تواصل معي اليوم لمناقشة كيف يمكنني مساعدتك في تحقيق أهدافك الرقمية.</p>
                 <div class="contact-buttons">
-                    <a href="https://wa.me/201080904834" target="_blank" class="btn btn-wa"><i class="fab fa-whatsapp"></i> واتساب</a>
-                    <a href="mailto:a46091249@gmail.com" class="btn btn-glass"><i class="fas fa-envelope"></i> البريد الإلكتروني</a>
+                    <a href="https://wa.me/201080904834" target="_blank" class="btn btn-yellow"><i class="fab fa-whatsapp"></i> واتساب</a>
+                    <a href="mailto:a46091249@gmail.com" class="btn btn-outline"><i class="fas fa-envelope"></i> البريد الإلكتروني</a>
                 </div>
             </div>
         </div>
     </section>
 
     <footer>
-        <p>&copy; 2026 أحمد جلال البكور.</p>
+        <p>&copy; 2026 أحمد جلال البكور. جميع الحقوق محفوظة.</p>
     </footer>
 
-    <script src="script.js"></script>
     <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            const themeToggle = document.getElementById('theme-toggle');
-            if (localStorage.getItem('theme') === 'dark') {
-                document.documentElement.setAttribute('data-theme', 'dark');
-                themeToggle.textContent = '☀️';
-            }
-            themeToggle.addEventListener('click', function() {
-                if (document.documentElement.getAttribute('data-theme') === 'dark') {
-                    document.documentElement.removeAttribute('data-theme');
-                    localStorage.setItem('theme', 'light');
-                    themeToggle.textContent = '🌙';
-                } else {
-                    document.documentElement.setAttribute('data-theme', 'dark');
-                    localStorage.setItem('theme', 'dark');
-                    themeToggle.textContent = '☀️';
-                }
-            });
+        // قائمة الجوال
+        document.querySelector('.menu-toggle').addEventListener('click', () => {
+            document.querySelector('.nav-links').classList.toggle('active');
         });
     </script>
 </body>
