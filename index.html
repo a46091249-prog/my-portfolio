@@ -241,13 +241,15 @@
                     </a>
                 </div>
                 <!-- نموذج التواصل (يجب تغيير YOUR_FORM_ID برابطك من Formspree) -->
- <form class="contact-form" action="mailto:a46091249@gmail.com" method="POST" enctype="text/plain">
-    <input type="text" name="الاسم" placeholder="اسمك" required>
-    <input type="email" name="البريد" placeholder="بريدك الإلكتروني" required>
-    <input type="text" name="الموضوع" placeholder="الموضوع">
-    <textarea name="الرسالة" rows="5" placeholder="رسالتك" required></textarea>
-    <button type="submit" class="btn btn-primary">إرسال الرسالة</button>
-</form>
+ <div class="contact-buttons" style="display: flex; flex-direction: column; gap: 20px; margin-top: 30px;">
+    <a href="https://wa.me/201080904834" target="_blank" class="btn btn-primary" style="background: #25D366; border: none; display: flex; align-items: center; justify-content: center; gap: 10px;">
+        <i class="fab fa-whatsapp" style="font-size: 24px;"></i> تواصل معي عبر واتساب
+    </a>
+    
+    <a href="mailto:a46091249@gmail.com" class="btn btn-outline" style="display: flex; align-items: center; justify-content: center; gap: 10px; border-color: var(--primary); color: var(--primary);">
+        <i class="fas fa-envelope" style="font-size: 20px;"></i> أرسل لي بريداً إلكترونياً
+    </a>
+</div>
             </div>
         </div>
     </section>
