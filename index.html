@@ -241,15 +241,11 @@
                     </a>
                 </div>
                 <!-- نموذج التواصل (يجب تغيير YOUR_FORM_ID برابطك من Formspree) -->
-  <form class="contact-form" action="https://formsubmit.co/a46091249@gmail.com" method="POST">
-    <!-- إعدادات إضافية لـ FormSubmit -->
-    <input type="hidden" name="_subject" value="رسالة جديدة من موقعك الشخصي">
-    <input type="hidden" name="_captcha" value="false">
-    
-    <input type="text" name="name" placeholder="اسمك" required>
-    <input type="email" name="email" placeholder="بريدك الإلكتروني" required>
-    <input type="text" name="subject" placeholder="الموضوع">
-    <textarea name="message" rows="5" placeholder="رسالتك" required></textarea>
+ <form class="contact-form" action="mailto:a46091249@gmail.com" method="POST" enctype="text/plain">
+    <input type="text" name="الاسم" placeholder="اسمك" required>
+    <input type="email" name="البريد" placeholder="بريدك الإلكتروني" required>
+    <input type="text" name="الموضوع" placeholder="الموضوع">
+    <textarea name="الرسالة" rows="5" placeholder="رسالتك" required></textarea>
     <button type="submit" class="btn btn-primary">إرسال الرسالة</button>
 </form>
             </div>
