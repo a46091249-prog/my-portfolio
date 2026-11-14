@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="أحمد جلال البكور - مهندس برمجيات متخصص في تطوير الويب والموبايل.">
     <title>أحمد جلال البكور | مهندس برمجيات</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -39,7 +38,7 @@
                     <a href="#about" class="btn btn-outline">اعرف المزيد</a>
                 </div>
                 <div class="social-links">
-                    <a href="https://wa.me/201080904834" target="_blank" aria-label="واتساب"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://wa.me/201080904834" target="_blank"><i class="fab fa-whatsapp"></i></a>
                     <a href="mailto:a46091249@gmail.com"><i class="fas fa-envelope"></i></a>
                     <a href="#"><i class="fab fa-linkedin"></i></a>
                     <a href="#"><i class="fab fa-github"></i></a>
@@ -122,10 +121,8 @@
         <i class="fab fa-whatsapp"></i>
     </a>
 
-    <!-- الأكواد البرمجية -->
     <script>
         document.addEventListener("DOMContentLoaded", function() {
-            // الوضع الليلي
             const themeToggle = document.getElementById('theme-toggle');
             if (localStorage.getItem('theme') === 'dark') {
                 document.documentElement.setAttribute('data-theme', 'dark');
@@ -142,8 +139,6 @@
                     themeToggle.textContent = '☀️';
                 }
             });
-
-            // قائمة الجوال
             document.querySelector('.menu-toggle').addEventListener('click', () => {
                 document.querySelector('.nav-links').classList.toggle('active');
             });
