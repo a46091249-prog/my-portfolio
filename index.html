@@ -6,10 +6,11 @@
     <title>أحمد جلال البكور | مهندس برمجيات</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
 
+    <!-- شريط التنقل -->
     <nav class="navbar">
         <div class="container">
             <a href="#" class="logo">أحمد<span>.</span></a>
@@ -17,12 +18,15 @@
                 <li><a href="#home">الرئيسية</a></li>
                 <li><a href="#about">من أنا</a></li>
                 <li><a href="#skills">مهاراتي</a></li>
+                <li><a href="#services">خدماتي</a></li>
                 <li><a href="#contact">تواصل</a></li>
             </ul>
+            <button class="theme-toggle" id="theme-toggle" aria-label="تبديل الوضع الليلي" style="font-size: 24px;">🌙</button>
             <div class="menu-toggle"><i class="fas fa-bars"></i></div>
         </div>
     </nav>
 
+    <!-- القسم الرئيسي -->
     <section id="home" class="hero">
         <div class="container hero-content">
             <div class="hero-text">
@@ -31,51 +35,113 @@
                 <p>أبني تطبيقات ويب وموبايل احترافية، ومواقع شركات، ومتاجر إلكترونية — مع حلول رقمية متكاملة تناسب احتياجات عملك.</p>
                 <div class="hero-buttons">
                     <a href="#contact" class="btn btn-primary">تواصل معي</a>
-                    <a href="Ahmed_Jalal_AlBakour_CV.pdf" download class="btn btn-outline"><i class="fas fa-download"></i> السيرة الذاتية</a>
+                    <a href="#about" class="btn btn-outline">اعرف المزيد</a>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="https://wa.me/201080904834" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    <a href="mailto:a46091249@gmail.com"><i class="fas fa-envelope"></i></a>
                 </div>
             </div>
             <div class="hero-image">
-                <img src="profile.jpg" alt="أحمد جلال البكور">
+                <div class="image-wrapper">
+                    <img src="profile.jpg" alt="أحمد جلال البكور">
+                </div>
             </div>
         </div>
     </section>
 
+    <!-- من أنا -->
     <section id="about" class="about">
         <div class="container">
             <h2 class="section-title">من <span>أنا</span></h2>
-            <p class="about-text">مهندس برمجيات متخصص في بناء تطبيقات الويب والموبايل، والمواقع الاحترافية للشركات، والمتاجر الإلكترونية. أجمع بين تطوير البرمجيات والإنتاج الرقمي العملي باستخدام أدوات الذكاء الاصطناعي.</p>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>مهندس برمجيات شغوف بالحلول الرقمية</h3>
+                    <p>أنا مهندس برمجيات متخصص في بناء تطبيقات الويب والموبايل، والمواقع الاحترافية للشركات، والمتاجر الإلكترونية. أعمل على تطوير حلول رقمية متكاملة تساعد الشركات والأفراد على إطلاق منتجاتهم وخدماتهم أونلاين.</p>
+                    <p>أجمع بين تطوير البرمجيات والإنتاج الرقمي العملي — حيث أطوّر مواقع WordPress وأصنع المواد الإعلانية والصور المصغرة باستخدام أدوات الذكاء الاصطناعي.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat"><h3>3+</h3><p>لغات برمجة</p></div>
+                    <div class="stat"><h3>5+</h3><p>منصات تطوير</p></div>
+                    <div class="stat"><h3>2</h3><p>مجال تطوير</p></div>
+                    <div class="stat"><h3>3</h3><p>لغات</p></div>
+                </div>
+            </div>
         </div>
     </section>
 
+    <!-- المهارات -->
     <section id="skills" class="skills">
         <div class="container">
             <h2 class="section-title">مها<span>راتي</span></h2>
             <div class="skills-grid">
-                <div class="skill-card"><i class="fab fa-java"></i><h3>Java</h3></div>
-                <div class="skill-card"><i class="fab fa-js"></i><h3>JavaScript</h3></div>
-                <div class="skill-card"><i class="fab fa-python"></i><h3>Python</h3></div>
-                <div class="skill-card"><i class="fab fa-wordpress"></i><h3>WordPress</h3></div>
+                <div class="skill-card"><i class="fab fa-java"></i><h3>Java</h3><div class="progress"><div class="progress-bar" style="width: 90%"></div></div></div>
+                <div class="skill-card"><i class="fab fa-js"></i><h3>JavaScript</h3><div class="progress"><div class="progress-bar" style="width: 85%"></div></div></div>
+                <div class="skill-card"><i class="fab fa-python"></i><h3>Python</h3><div class="progress"><div class="progress-bar" style="width: 80%"></div></div></div>
+                <div class="skill-card"><i class="fab fa-wordpress"></i><h3>WordPress</h3><div class="progress"><div class="progress-bar" style="width: 90%"></div></div></div>
+                <div class="skill-card"><i class="fab fa-android"></i><h3>Android</h3><div class="progress"><div class="progress-bar" style="width: 80%"></div></div></div>
+                <div class="skill-card"><i class="fab fa-apple"></i><h3>iOS</h3><div class="progress"><div class="progress-bar" style="width: 70%"></div></div></div>
             </div>
         </div>
     </section>
 
+    <!-- الخدمات -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">خد<span>ماتي</span></h2>
+            <div class="services-grid">
+                <div class="service-card"><div class="service-icon"><i class="fas fa-globe"></i></div><h3>تطوير مواقع الويب</h3><p>بناء تطبيقات ويب احترافية ومواقع شركات سريعة وآمنة.</p></div>
+                <div class="service-card"><div class="service-icon"><i class="fas fa-mobile-alt"></i></div><h3>تطبيقات الموبايل</h3><p>تطوير تطبيقات Android و iOS بأداء عالٍ وتجربة مستخدم سلسة.</p></div>
+                <div class="service-card"><div class="service-icon"><i class="fas fa-shopping-cart"></i></div><h3>المتاجر الإلكترونية</h3><p>إنشاء متاجر إلكترونية متكاملة لبيع المنتجات والخدمات.</p></div>
+                <div class="service-card"><div class="service-icon"><i class="fas fa-robot"></i></div><h3>أدوات الذكاء الاصطناعي</h3><p>إنتاج مواد إعلانية وصور مصغرة احترافية.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- التواصل -->
     <section id="contact" class="contact">
         <div class="container">
             <h2 class="section-title">تواصل <span>معي</span></h2>
-            <div class="contact-box">
-                <a href="https://wa.me/201080904834" target="_blank" class="btn btn-primary"><i class="fab fa-whatsapp"></i> واتساب</a>
-                <a href="mailto:a46091249@gmail.com" class="btn btn-outline"><i class="fas fa-envelope"></i> البريد الإلكتروني</a>
+            <div class="contact-content" style="text-align: center; display: flex; flex-direction: column; gap: 20px; align-items: center;">
+                <p style="margin-bottom: 20px; color: var(--gray);">أنا منفتح دائماً على المشاريع الجديدة والفرص المثيرة.</p>
+                <a href="https://wa.me/201080904834" target="_blank" class="btn btn-primary" style="background: #25D366; min-width: 250px; justify-content: center;"><i class="fab fa-whatsapp"></i> تواصل عبر واتساب</a>
+                <a href="mailto:a46091249@gmail.com" class="btn btn-outline" style="min-width: 250px; justify-content: center;"><i class="fas fa-envelope"></i> أرسل بريداً إلكترونياً</a>
             </div>
         </div>
     </section>
 
     <footer>
-        <p>&copy; 2026 أحمد جلال البكور.</p>
+        <p>&copy; 2026 أحمد جلال البكور. جميع الحقوق محفوظة.</p>
     </footer>
 
+    <!-- زر الواتساب العائم -->
+    <a href="https://wa.me/201080904834?text=مرحباً%20أحمد،%20أرغب%20في%20الاستفسار%20عن%20خدماتك" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
     <script>
-        document.querySelector('.menu-toggle').addEventListener('click', () => {
-            document.querySelector('.nav-links').classList.toggle('active');
+        document.addEventListener("DOMContentLoaded", function() {
+            const themeToggle = document.getElementById('theme-toggle');
+            if (localStorage.getItem('theme') === 'dark') {
+                document.documentElement.setAttribute('data-theme', 'dark');
+                themeToggle.textContent = '☀️';
+            }
+            themeToggle.addEventListener('click', function() {
+                if (document.documentElement.getAttribute('data-theme') === 'dark') {
+                    document.documentElement.removeAttribute('data-theme');
+                    localStorage.setItem('theme', 'light');
+                    themeToggle.textContent = '🌙';
+                } else {
+                    document.documentElement.setAttribute('data-theme', 'dark');
+                    localStorage.setItem('theme', 'dark');
+                    themeToggle.textContent = '☀️';
+                }
+            });
+            document.querySelector('.menu-toggle').addEventListener('click', () => {
+                document.querySelector('.nav-links').classList.toggle('active');
+            });
         });
     </script>
 </body>
