@@ -3,11 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="أحمد جلال البكور - مهندس برمجيات متخصص في تطوير الويب والموبايل.">
     <title>أحمد جلال البكور | مهندس برمجيات</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -18,73 +17,63 @@
                 <li><a href="#home">الرئيسية</a></li>
                 <li><a href="#about">من أنا</a></li>
                 <li><a href="#skills">مهاراتي</a></li>
-                <li><a href="#services">خدماتي</a></li>
                 <li><a href="#contact">تواصل</a></li>
             </ul>
             <div class="menu-toggle"><i class="fas fa-bars"></i></div>
         </div>
     </nav>
 
-    <!-- القسم الرئيسي (Hero) -->
     <section id="home" class="hero">
-        <div class="hero-overlay"></div>
         <div class="container hero-content">
-            <h2 class="subtitle">مهندس برمجيات</h2>
-            <h1>أبني حلولاً رقمية<br>تحدث فرقاً.</h1>
-            <p>أنا أحمد جلال البكور. متخصص في تطوير تطبيقات الويب والموبايل، والمواقع الاحترافية للشركات والمتاجر الإلكترونية.</p>
-            <div class="hero-buttons">
-                <a href="#contact" class="btn btn-yellow">اطلب خدمة الآن</a>
-                <a href="#skills" class="btn btn-outline">اكتشف مهاراتي</a>
+            <div class="hero-text">
+                <h1>مرحباً، أنا <span class="highlight">أحمد جلال البكور</span></h1>
+                <h2>مهندس برمجيات | مطور ويب وتطبيقات</h2>
+                <p>أبني تطبيقات ويب وموبايل احترافية، ومواقع شركات، ومتاجر إلكترونية — مع حلول رقمية متكاملة تناسب احتياجات عملك.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">تواصل معي</a>
+                    <a href="Ahmed_Jalal_AlBakour_CV.pdf" download class="btn btn-outline"><i class="fas fa-download"></i> السيرة الذاتية</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="profile.jpg" alt="أحمد جلال البكور">
             </div>
         </div>
     </section>
 
-    <!-- من أنا -->
-    <section id="about" class="section-dark">
+    <section id="about" class="about">
         <div class="container">
             <h2 class="section-title">من <span>أنا</span></h2>
-            <div class="about-content">
-                <p>مهندس برمجيات متخصص في بناء تطبيقات الويب والموبايل. أجمع بين تطوير البرمجيات والإنتاج الرقمي العملي باستخدام أدوات الذكاء الاصطناعي، مما يمنح عملائي حلاً شاملاً من الفكرة إلى الإطلاق.</p>
-            </div>
+            <p class="about-text">مهندس برمجيات متخصص في بناء تطبيقات الويب والموبايل، والمواقع الاحترافية للشركات، والمتاجر الإلكترونية. أجمع بين تطوير البرمجيات والإنتاج الرقمي العملي باستخدام أدوات الذكاء الاصطناعي.</p>
         </div>
     </section>
 
-    <!-- المهارات -->
-    <section id="skills" class="section-darker">
+    <section id="skills" class="skills">
         <div class="container">
             <h2 class="section-title">مها<span>راتي</span></h2>
-            <div class="grid-container">
-                <div class="card"><i class="fab fa-java"></i><h3>Java</h3></div>
-                <div class="card"><i class="fab fa-js"></i><h3>JavaScript</h3></div>
-                <div class="card"><i class="fab fa-python"></i><h3>Python</h3></div>
-                <div class="card"><i class="fab fa-wordpress"></i><h3>WordPress</h3></div>
-                <div class="card"><i class="fab fa-android"></i><h3>Android</h3></div>
-                <div class="card"><i class="fab fa-apple"></i><h3>iOS</h3></div>
+            <div class="skills-grid">
+                <div class="skill-card"><i class="fab fa-java"></i><h3>Java</h3></div>
+                <div class="skill-card"><i class="fab fa-js"></i><h3>JavaScript</h3></div>
+                <div class="skill-card"><i class="fab fa-python"></i><h3>Python</h3></div>
+                <div class="skill-card"><i class="fab fa-wordpress"></i><h3>WordPress</h3></div>
             </div>
         </div>
     </section>
 
-    <!-- التواصل -->
-    <section id="contact" class="section-dark">
+    <section id="contact" class="contact">
         <div class="container">
             <h2 class="section-title">تواصل <span>معي</span></h2>
             <div class="contact-box">
-                <h3>جاهز لبدء مشروعك؟</h3>
-                <p>تواصل معي اليوم لمناقشة كيف يمكنني مساعدتك في تحقيق أهدافك الرقمية.</p>
-                <div class="contact-buttons">
-                    <a href="https://wa.me/201080904834" target="_blank" class="btn btn-yellow"><i class="fab fa-whatsapp"></i> واتساب</a>
-                    <a href="mailto:a46091249@gmail.com" class="btn btn-outline"><i class="fas fa-envelope"></i> البريد الإلكتروني</a>
-                </div>
+                <a href="https://wa.me/201080904834" target="_blank" class="btn btn-primary"><i class="fab fa-whatsapp"></i> واتساب</a>
+                <a href="mailto:a46091249@gmail.com" class="btn btn-outline"><i class="fas fa-envelope"></i> البريد الإلكتروني</a>
             </div>
         </div>
     </section>
 
     <footer>
-        <p>&copy; 2026 أحمد جلال البكور. جميع الحقوق محفوظة.</p>
+        <p>&copy; 2026 أحمد جلال البكور.</p>
     </footer>
 
     <script>
-        // قائمة الجوال
         document.querySelector('.menu-toggle').addEventListener('click', () => {
             document.querySelector('.nav-links').classList.toggle('active');
         });
