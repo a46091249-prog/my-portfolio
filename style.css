@@ -30,7 +30,6 @@ body {
     overflow-x: hidden;
 }
 
-/* خلفية ديناميكية */
 body::before {
     content: '';
     position: fixed;
@@ -53,7 +52,6 @@ body::after {
 
 .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
 
-/* الزجاج */
 .glass-card {
     background: var(--glass-bg);
     backdrop-filter: blur(12px);
@@ -66,7 +64,6 @@ body::after {
 }
 .glass-card:hover { transform: translateY(-5px); }
 
-/* شريط التنقل */
 .navbar {
     position: fixed;
     top: 0; width: 100%;
@@ -86,7 +83,6 @@ body::after {
 .theme-toggle:hover { transform: scale(1.2); }
 .menu-toggle { display: none; font-size: 24px; cursor: pointer; }
 
-/* القسم الرئيسي */
 .hero {
     min-height: 100vh;
     display: flex;
@@ -130,12 +126,10 @@ body::after {
     z-index: 1; opacity: 0.3; filter: blur(20px);
 }
 
-/* الأقسام العامة */
 section { padding: 100px 0; }
 .section-title { text-align: center; font-size: 40px; font-weight: 800; margin-bottom: 50px; }
 .section-title span { color: var(--primary); }
 
-/* المهارات والخدمات */
 .skills-grid, .services-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -155,7 +149,6 @@ section { padding: 100px 0; }
 .service-item p { color: #6b7280; margin-top: 10px; }
 [data-theme="dark"] .service-item p { color: #9ca3af; }
 
-/* التواصل */
 .contact-card { text-align: center; max-width: 600px; margin: 0 auto; }
 .contact-card h3 { font-size: 28px; margin-bottom: 15px; }
 .contact-buttons { display: flex; gap: 15px; justify-content: center; margin-top: 30px; }
@@ -164,7 +157,6 @@ section { padding: 100px 0; }
 
 footer { text-align: center; padding: 30px; color: #9ca3af; font-size: 14px; }
 
-/* الجوال */
 @media (max-width: 768px) {
     .nav-links { display: none; }
     .menu-toggle { display: block; }
